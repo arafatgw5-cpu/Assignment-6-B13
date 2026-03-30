@@ -1,23 +1,15 @@
-import React from 'react';
 import Navber from './components/Navber';
 import Banner from './components/Banner';
 import Rating from './components/Rating';
-import Model from './Model';
-const getModels = async ()=>{
-  const res = await fetch("/models.json")
-  return res.json()
-}
-
-const modelPromise = getModels()
-
+import Model from './components/Model';
 
 const App = () => {
   return (
-    <div>
+    <div className="bg-gray-100 min-h-screen">
       <Navber/>
       <Banner/>
       <Rating/>
-      <Model modelPromise={modelPromise}/>
+      <Model/>
     </div>
   );
 };
