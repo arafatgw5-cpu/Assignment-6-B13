@@ -1,0 +1,90 @@
+[
+  {
+    "id": "resume-builder",
+    "name": "AI Resume Builder",
+    "description": "Build ATS-optimized resumes with AI in minutes. Stand out to recruiters with professional templates and smart suggestions.",
+    "price": 12.99,
+    "period": "monthly",
+    "tag": "popular",
+    "tagType": "popular",
+    "features": ["100+ templates", "ATS optimization", "Export to PDF", "AI keyword matching", "Real-time feedback"],
+    "icon": "📄"
+  },
+  {
+    "id": "cover-letter",
+    "name": "Cover Letter Generator",
+    "description": "Craft personalized cover letters that get you noticed using our advanced AI technology.",
+    "price": 8.99,
+    "period": "one-time",
+    "tag": "new",
+    "tagType": "new",
+    "features": ["AI personalization", "Job-specific tailoring", "Multiple formats", "Grammar check", "Export to Word/PDF"],
+    "icon": "✉️"
+  },
+  {
+    "id": "linkedin-pro",
+    "name": "LinkedIn Profile Booster",
+    "description": "Optimize your LinkedIn profile for maximum visibility and connections with AI-powered insights.",
+    "price": 24.99,
+    "period": "yearly",
+    "tag": "best seller",
+    "tagType": "best-seller",
+    "features": ["Profile analysis", "Content suggestions", "Keyword optimization", "Headline generator", "Connection strategies"],
+    "icon": "🔗"
+  },
+  {
+    "id": "interview-coach",
+    "name": "AI Interview Coach",
+    "description": "Practice interviews with real-time AI feedback and industry-specific questions.",
+    "price": 29.99,
+    "period": "one-time",
+    "tag": null,
+    "tagType": null,
+    "features": ["Unlimited mock interviews", "Behavioral question practice", "Video analysis", "Confidence scoring", "Follow-up email templates"],
+    "icon": "🎤"
+  },
+  {
+    "id": "job-tracker",
+    "name": "Job Application Tracker",
+    "description": "Track all your job applications, deadlines, and follow-ups in one organized dashboard.",
+    "price": 4.99,
+    "period": "monthly",
+    "tag": "popular",
+    "tagType": "popular",
+    "features": ["Application dashboard", "Deadline reminders", "Status tracking", "Email integration", "Analytics reports"],
+    "icon": "📊"
+  },
+  {
+    "id": "career-advisor",
+    "name": "Career Path Advisor",
+    "description": "Discover your ideal career path with AI-driven insights and skill gap analysis.",
+    "price": 19.99,
+    "period": "yearly",
+    "tag": "new",
+    "tagType": "new",
+    "features": ["Skill assessment", "Career recommendations", "Personalized learning paths", "Salary insights", "Market trend analysis"],
+    "icon": "🛤️"
+  },
+  {
+    "id": "portfolio-builder",
+    "name": "Portfolio Builder Pro",
+    "description": "Create stunning professional portfolios to showcase your work and skills effortlessly.",
+    "price": 9.99,
+    "period": "monthly",
+    "tag": "best seller",
+    "tagType": "best-seller",
+    "features": ["Drag-and-drop editor", "Template gallery", "Mobile responsive", "View analytics", "SEO optimization"],
+    "icon": "🖼️"
+  },
+  {
+    "id": "freelance-writer",
+    "name": "Freelance Proposal Writer",
+    "description": "Win more gigs with AI-generated winning proposals and contracts tailored to clients.",
+    "price": 7.99,
+    "period": "one-time",
+    "tag": null,
+    "tagType": null,
+    "features": ["Proposal templates", "Client customization", "Pricing calculator", "Contract generator", "Win rate predictor"],
+    "icon": "💼"
+  }
+]
