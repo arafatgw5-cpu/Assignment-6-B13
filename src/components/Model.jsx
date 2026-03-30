@@ -1,7 +1,7 @@
 import React, { use } from 'react';
 import ModalCard from './ModalCard';
 
-const Model = ({ modelPromise }) => {
+const Model = ({ modelPromise,carts,setCarts }) => {
   const models = use(modelPromise); // 
 
 
@@ -20,7 +20,7 @@ const Model = ({ modelPromise }) => {
       {/* Model Cards - 100% Responsive Grid */}
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 sm:gap-6">
         {models.map((model) => (
-         <ModalCard model={model}/>
+         <ModalCard key={model.id} model={model} carts={carts} setCarts={setCarts}/>
         ))}
       </div>
     </div>

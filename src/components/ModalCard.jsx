@@ -1,9 +1,10 @@
 import React, { useState } from 'react';
 
-const ModalCard = ({model}) => {
+const ModalCard = ({model,carts,setCarts}) => {
    const [isBuyNow,setIsAddToCart]=useState(false)
    const handleBuyBtn= ()=>{
     setIsAddToCart(true)
+    setCarts([...carts,model])
    }
   return (
     <div>
