@@ -6,6 +6,9 @@ const Cart = ({ carts, setCarts }) => {
   const handleRemove = (id) => {
     setCarts(carts.filter(item => item.id !== id));
   };
+  const handlePayment = ()=>{
+    setCarts([])
+  }
 
   return (
     <div className="max-w-3xl mx-auto bg-white p-6 rounded-3xl shadow-xl">
@@ -35,7 +38,7 @@ const Cart = ({ carts, setCarts }) => {
 
                 <button
                   onClick={() => handleRemove(item.id)}
-                  className="text-red-500 hover:text-red-700"
+                  className="text-red-100 hover:text-red-300 btn btn-error"
                 >
                   Remove
                 </button>
@@ -45,9 +48,9 @@ const Cart = ({ carts, setCarts }) => {
 
           <div className="flex justify-between mt-6 p-4 bg-amber-50 rounded-xl font-bold text-lg">
             <span>Total</span>
-            <span>${totalPrice}</span>
+            <span>${totalPrice.toFixed(2)}</span>
           </div>
-          <button 
+          <button onClick={handlePayment}
           className="btn bg-[#1A77F2] text-white border-[#005fd8] mt-2 w-full rounded-full">Proceed to Checkout</button>
         </>
       )}

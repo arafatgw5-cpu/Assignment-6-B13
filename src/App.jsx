@@ -19,12 +19,12 @@ const App = () => {
 
   return (
     <div className="bg-gray-100 min-h-screen">
-      <Navber />
+      <Navber carts={carts} />
       <Banner />
       <Rating />
 
    
-      <div className="tabs tabs-box justify-center bg-transparent py-5 gap-2">
+      <div className="tabs tabs-box justify-center bg-transparent py-5 gap-2 ">
   
         <input
           type="radio"
@@ -48,7 +48,7 @@ const App = () => {
               ? "bg-violet-600 text-white hover:bg-violet-700 shadow-md"
               : "bg-white hover:bg-gray-100 text-gray-700"
           }`}
-          aria-label="Cart"
+          aria-label={`Cart (${carts.length})`}
           checked={activeTab === "cart"}
           onChange={() => setActiveTab("cart")}
         />

@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react';
+import React, {useEffect,  useState } from 'react';
 import ModalCard from './ModalCard';
 
 const Model = ({ modelPromise, carts, setCarts }) => {
