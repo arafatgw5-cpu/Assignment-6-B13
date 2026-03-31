@@ -1,9 +1,8 @@
 # 🌟 Project Name
-
+🛒 A-6 Digital Tools Buying Website
 ## 📌 Description
 
-A short and clear description of your project goes here.
-Explain what your project does and why it is useful in 2–3 lines.
+A modern and responsive digital tools buying website where users can explore premium tools, view product details, and easily add items to their cart. The platform provides a smooth and user-friendly shopping experience with dynamic cart management and interactive design.
 
 ---
 
