@@ -1,4 +1,5 @@
 import React from 'react';
+import { toast } from 'react-toastify';
 
 const ModalCard = ({ model, carts, setCarts }) => {
   const isInCart = carts.some((item) => item.id === model.id);
@@ -6,7 +7,9 @@ const ModalCard = ({ model, carts, setCarts }) => {
   const handleBuyBtn = () => {
     if (!isInCart) {
       setCarts([...carts, model]);
+      toast.success("✨ Successfully added! Check your cart.");
     }
+     
   };
 
   return (
