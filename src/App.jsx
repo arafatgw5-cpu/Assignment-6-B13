@@ -22,28 +22,38 @@ const App = () => {
       <Banner />
       <Rating />
 
-      {/* Tabs */}
-      <div className="tabs tabs-box justify-center bg-transparent py-5">
+   
+      <div className="tabs tabs-box justify-center bg-transparent py-5 gap-2">
+  
         <input
           type="radio"
           name="tabs"
-          className="tab rounded-full w-40"
+          className={`tab rounded-full w-40 font-medium transition-all ${
+            activeTab === "model"
+              ? "bg-violet-600 text-white hover:bg-violet-700 shadow-md"
+              : "bg-white hover:bg-gray-100 text-gray-700"
+          }`}
           aria-label="Products"
           checked={activeTab === "model"}
           onChange={() => setActiveTab("model")}
         />
 
+
         <input
           type="radio"
           name="tabs"
-          className="tab rounded-full w-40"
+          className={`tab rounded-full w-40 font-medium transition-all ${
+            activeTab === "cart"
+              ? "bg-violet-600 text-white hover:bg-violet-700 shadow-md"
+              : "bg-white hover:bg-gray-100 text-gray-700"
+          }`}
           aria-label="Cart"
           checked={activeTab === "cart"}
           onChange={() => setActiveTab("cart")}
         />
       </div>
 
-      {/* Content */}
+
       <div className="px-4 pb-10">
         {activeTab === "model" && (
           <Model
