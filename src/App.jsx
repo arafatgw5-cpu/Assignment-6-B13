@@ -4,6 +4,7 @@ import Rating from './components/Rating';
 import Model from './components/Model';
 import Cart from './components/Cart';
 import Steps from './components/Steps';
+import Pricing from './components/Pricing';
 import { useState } from 'react';
 
 const getModels = async () => {
@@ -69,6 +70,7 @@ const App = () => {
         )}
       </div>
       <Steps/>
+      <Pricing/>
     </div>
   );
 };
