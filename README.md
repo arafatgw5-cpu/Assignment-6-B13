@@ -18,22 +18,18 @@ A modern and responsive digital tools buying website where users can explore pre
 
 ## ✨ Features
 
-* 🔥 Feature 1: Describe one main functionality of your project
-* ⚡ Feature 2: Highlight another useful or unique feature
-* 💡 Feature 3: Explain a cool or advanced feature
-
+✨ Features
+🛒 Dynamic Cart System
+Users can add and remove products from the cart, and the cart count updates instantly in the navbar.
+🔄 Product & Cart Toggle System
+Easily switch between product view and cart view with interactive buttons.
+🔔 Toast Notifications
+Integrated React-Toastify to show alerts for add to cart, remove product, and checkout actions.
 ---
 
 
 ---
 
-## 📂 Installation
 
-```bash
-git clone https://github.com/your-username/your-repo-name.git
-cd your-repo-name
-npm install
-npm run dev
-```
 
 
