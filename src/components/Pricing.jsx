@@ -15,7 +15,7 @@ const Pricing = () => {
       <div className="max-w-7xl mx-auto px-4 py-16">
         <div className="grid grid-cols-1 lg:grid-cols-3 gap-8">
 
-       \
+      {/* Starter Card */}
           <div className="bg-base-100 border border-base-300 rounded-3xl p-8 flex flex-col shadow-sm">
             <div>
               <h2 className="text-3xl font-semibold text-base-content">Starter</h2>
@@ -51,7 +51,7 @@ const Pricing = () => {
             </button>
           </div>
 
-         
+          {/* Pro Card */}
           <div className="bg-violet-600 text-white rounded-3xl p-8 flex flex-col shadow-2xl relative">
             <div className="absolute -top-4 left-1/2 -translate-x-1/2 bg-amber-400 text-black text-sm font-bold px-7 py-1.5 rounded-3xl shadow-md">
               Most Popular

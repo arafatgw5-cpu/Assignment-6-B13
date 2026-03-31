@@ -6,6 +6,7 @@ import Cart from './components/Cart';
 import Steps from './components/Steps';
 import Pricing from './components/Pricing';
 import { useState } from 'react';
+import Footer from './components/Footer';
 
 const getModels = async () => {
   const res = await fetch("/models.json");
@@ -71,6 +72,7 @@ const App = () => {
       </div>
       <Steps/>
       <Pricing/>
+      <Footer/>
     </div>
   );
 };
