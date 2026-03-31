@@ -43,10 +43,12 @@ const Cart = ({ carts, setCarts }) => {
             ))}
           </div>
 
-          <div className="flex justify-between mt-6 p-4 bg-amber-100 rounded-xl font-bold text-lg">
+          <div className="flex justify-between mt-6 p-4 bg-amber-50 rounded-xl font-bold text-lg">
             <span>Total</span>
             <span>${totalPrice}</span>
           </div>
+          <button 
+          className="btn bg-[#1A77F2] text-white border-[#005fd8] mt-2 w-full rounded-full">Proceed to Checkout</button>
         </>
       )}
     </div>

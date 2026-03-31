@@ -27,7 +27,7 @@ const Banner = () => {
 
 
       <h1 className="text-4xl sm:text-5xl lg:text-6xl font-extrabold leading-[1.1] text-gray-900">
-        Supercharge Your <br className="hidden sm:block" /> Digital Workflow
+        Supercharge Your <br className="hidden sm:block" /> <span className='text-[#8B2CF5]'>Digital Workflow</span>
       </h1>
 
 

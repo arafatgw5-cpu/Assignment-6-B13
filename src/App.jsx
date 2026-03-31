@@ -3,6 +3,7 @@ import Banner from './components/Banner';
 import Rating from './components/Rating';
 import Model from './components/Model';
 import Cart from './components/Cart';
+import Steps from './components/Steps';
 import { useState } from 'react';
 
 const getModels = async () => {
@@ -67,6 +68,7 @@ const App = () => {
           <Cart carts={carts} setCarts={setCarts} />
         )}
       </div>
+      <Steps/>
     </div>
   );
 };
